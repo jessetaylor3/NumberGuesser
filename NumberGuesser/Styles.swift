@@ -42,7 +42,7 @@ struct CapsuleText: View {
             .frame(maxWidth: 200)
             .background(.background.opacity(0.3))
             .clipShape(Capsule())
-            .padding()
+            .padding(5)
     }
 }
 
